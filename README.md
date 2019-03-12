@@ -1,71 +1,68 @@
-# PROS UI Software Engineer Pre-Interview Questions
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-The repo includes a set of tests that assess your JavaScript skills, based
-on Rebecca Murphey's js-assessment framework, and a project to demonstrate practical React skills.
+## Available Scripts
 
-# How do I begin?
+In the project directory, you can run:
 
-1. If you don't have a Github account, [sign up](https://github.com/signup/free)!
-2. Fork this repo to your own Github repo
-3. Clone the repo locally on your own computer
-4. Implement the functions in each of the scripts located in the `app/` dir
-5. Test your results as described below
-6. Commit your changes to your personal Github repo (No need to submit a pull request)
-7. Complete the project described below
-8. Email us the link to your repo so that we can review your results
+### `npm start`
 
-Note: You may receive notifications that your repo has been followed or forked by a PROS employee.
-These actions are simply part of the review process.
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-# I want to work on the tests; what do I do?
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-To use the tests, you will need to install Node -- you can do this via the
-[download page](http://nodejs.org/#download)
+### `npm test`
 
-Note that on Windows, there are some reports that you will need to restart
-after installing Node.
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-You can clone or download this repo. Once you have done so, from the root
-directory of the repo, run:
+### `npm run build`
 
-    npm install
-    npm run start
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-You can then view the tests in your browser at
-[http://localhost:4444](http://localhost:4444).
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
 
-When you visit that page, all of the tests should be failing; your job is to
-get the tests to pass. To do this, you'll need to refer to the tests in the
-files in the `tests/app` directory, and edit the files in the `app/` directory.
-Once you update a test, you can reload the test page in the browser to see
-whether it worked.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-# I want to complete the project; what do I do?
+### `npm run eject`
 
-1. Create a React App with the following two inputs. Using a boilerplate like create-react-app is fine.
-    1. A multiline text input that will accept a list of names, one per line.
-    2. A dropdown that allows the user to select one of several languages.
-2. Generate name tags for each name in the text input with a greeting in the language corresponding to the language chosen in the dropdown.
-3. Make the source available as a cloneable repo, for example, on Github, and provide the link below. Be sure to include instructions on how to run the application in the README. 
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-## Completed project link
-Find my project source code [here]() (update this to link to your completed project).
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-# License
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-Portions Copyright &copy; 2012 PROS, Inc.
-Core Framework Copyright &copy; 2012 Rebecca Murphey. [Core Repo](https://github.com/rmurphey/js-assessment)
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-This work is licensed under the [Creative Commons Attribution-Share Alike 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
-license. You are free to share and remix the work, and to use it for commercial
-purposes under the following conditions:
+## Learn More
 
-- *Attribution* — You must attribute the work in the manner specified by the
-  author or licensor (but not in any way that suggests that they endorse you or
-  your use of the work).
-- *Share Alike* — If you alter, transform, or build upon this work, you may
-  distribute the resulting work only under the same or similar license to this
-  one.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Any of these conditions can be waived if you get permission from the copyright
-holder.
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
