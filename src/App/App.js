@@ -25,6 +25,7 @@ class App extends PureComponent {
       this.setState(() => ({ open: true }));
     }
   };
+  handleLogout = () => this.setState(() => ({ loggedIn: false }));
   closeSnackBar = () => {
     this.setState(() => ({ open: false }));
   };
@@ -32,13 +33,13 @@ class App extends PureComponent {
     return email === 'yayobyte@gmail.com' && password === '1234';
   };
   render() {
-    const { handleSubmit, closeSnackBar } = this;
+    const { handleSubmit, closeSnackBar, handleLogout } = this;
     const { loggedIn } = this.state;
     return (
       <Fragment>
         <CssBaseline />
         {!loggedIn && <SignIn handleSubmit={handleSubmit}/>}
-        {loggedIn && <Content />}
+        {loggedIn && <Content handleLogout={handleLogout}/>}
         <Snackbar
           anchorOrigin={{
             vertical: 'bottom',

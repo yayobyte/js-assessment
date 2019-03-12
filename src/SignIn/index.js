@@ -3,8 +3,6 @@ import PropTypes from 'prop-types';
 import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
 import FormControl from '@material-ui/core/FormControl';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import Checkbox from '@material-ui/core/Checkbox';
 import Input from '@material-ui/core/Input';
 import InputLabel from '@material-ui/core/InputLabel';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
@@ -46,10 +44,6 @@ class SignIn extends React.PureComponent {
               <Input name="password" type="password" id="password" autoComplete="current-password" placeholder="1234"
                  value={password} onChange={handleChange('password')} />
             </FormControl>
-            <FormControlLabel
-              control={<Checkbox value="remember" color="primary"/>}
-              label="Remember me"
-            />
             <Button
               type="button"
               fullWidth
