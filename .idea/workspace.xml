@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f171dfa-ed63-4f5d-96e4-7716ba53a355" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/i18n/locales-es.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/i18n/locales-en.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/i18n/locales-fr.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/i18n/locales-pt.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SignIn/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/SignIn/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/i18n/locales-es.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/i18n/locales-es.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,20 +23,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="324">
+              <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#55#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/i18n/locales-es.json">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="433">
+                <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App/styles.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+            <state relative-caret-position="88">
+              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -41,8 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Content/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="39" column="95" selection-start-line="39" selection-start-column="95" selection-end-line="39" selection-end-column="95" />
+            <state relative-caret-position="602">
+              <caret line="89" column="34" selection-start-line="89" selection-start-column="27" selection-end-line="89" selection-end-column="34" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -51,10 +69,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/i18n/locales-pt.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/i18n/locales-es.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SignIn/styles.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" selection-start-line="18" selection-end-line="21" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Content/styles.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SignIn/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-308">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="264">
+              <caret line="39" column="19" selection-start-line="37" selection-start-column="10" selection-end-line="39" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,12 +132,15 @@
         <option value="$PROJECT_DIR$/src/App/App.css" />
         <option value="$PROJECT_DIR$/src/SignIn/styles.js" />
         <option value="$PROJECT_DIR$/src/App/Content/index.js" />
-        <option value="$PROJECT_DIR$/src/Content/styles.js" />
         <option value="$PROJECT_DIR$/src/App/credentials.js" />
         <option value="$PROJECT_DIR$/src/SignIn/index.js" />
-        <option value="$PROJECT_DIR$/src/App/App.js" />
-        <option value="$PROJECT_DIR$/src/Content/index.js" />
+        <option value="$PROJECT_DIR$/src/Content/styles.js" />
         <option value="$PROJECT_DIR$/src/i18n/locales-es.json" />
+        <option value="$PROJECT_DIR$/src/i18n/locales-fr.json" />
+        <option value="$PROJECT_DIR$/src/Content/index.js" />
+        <option value="$PROJECT_DIR$/src/i18n/locales-pt.json" />
+        <option value="$PROJECT_DIR$/src/App/styles.js" />
+        <option value="$PROJECT_DIR$/src/App/App.js" />
       </list>
     </option>
   </component>
@@ -112,6 +172,24 @@
               <item name="js-assessment" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="js-assessment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-assessment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-assessment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-assessment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-assessment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-assessment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="i18n" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -122,13 +200,21 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/App" />
+      <recent name="$PROJECT_DIR$/src/i18n" />
+      <recent name="$PROJECT_DIR$/src/img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/App" />
@@ -159,12 +245,12 @@
       <workItem from="1552344332891" duration="6745000" />
       <workItem from="1552418043119" duration="113000" />
       <workItem from="1552418405835" duration="8123000" />
-      <workItem from="1552443246057" duration="8614000" />
+      <workItem from="1552443246057" duration="14193000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23595000" />
+    <option name="totallyTimeSpent" value="29174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1922" height="929" extended-state="6" />
@@ -221,16 +307,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="433">
-            <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1884">
@@ -258,13 +334,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SignIn/styles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
@@ -280,13 +349,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Content/styles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App/credentials.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -294,34 +356,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SignIn/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-308">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="264">
+          <caret line="39" column="19" selection-start-line="37" selection-start-column="10" selection-end-line="39" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Content/index.js">
+    <entry file="file://$PROJECT_DIR$/src/SignIn/styles.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="39" column="95" selection-start-line="39" selection-start-column="95" selection-end-line="39" selection-end-column="95" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="396">
+          <caret line="18" selection-start-line="18" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Content/styles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/en-flag.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/i18n/locales-fr.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/i18n/locales-es.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/i18n/locales-pt.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/i18n/locales-en.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="46" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Content/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="89" column="34" selection-start-line="89" selection-start-column="27" selection-end-line="89" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/styles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="433">
+            <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

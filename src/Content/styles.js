@@ -19,6 +19,10 @@ const styles = theme => ({
   form: {
     width: '100%',
   },
+  avatar: {
+    margin: 'auto',
+    backgroundColor: theme.palette.primary.main,
+  },
 });
 
 export default styles;

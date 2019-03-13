@@ -1,9 +1,9 @@
 {
-  "greeting.hello": "Hello",
-  "greeting.goodMorning": "Good Morning",
-  "greeting.whatsUp": "Whats Up",
-  "greeting.howsEverything": "How’s everything",
-  "greeting.goodToSeeYou": "Good to see you",
-  "greeting.itsNiceToSeeYou": "It’s nice to meet you",
-  "greeting.howHaveYouBeen": "How have you been"
+  "greeting.hello": "Hola",
+  "greeting.goodMorning": "Buenos días",
+  "greeting.whatsUp": "Qué tal?",
+  "greeting.howsEverything": "Cómo va todo?",
+  "greeting.goodToSeeYou": "Qué bueno verte",
+  "greeting.itsNiceToSeeYou": "Es agradable verte",
+  "greeting.howHaveYouBeen": "Cómo has estado?"
 }
