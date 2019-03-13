@@ -1,7 +1,6 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import Card from '@material-ui/core/Card';
-import Input from "@material-ui/core/Input";
 import Button from "@material-ui/core/Button";
 import Avatar from "@material-ui/core/Avatar";
 import Select from '@material-ui/core/Select';
@@ -14,6 +13,7 @@ import FormControl from "@material-ui/core/FormControl";
 import CardActions from '@material-ui/core/CardActions';
 import TranslateIcon from '@material-ui/icons/Translate';
 import OutlinedInput from '@material-ui/core/OutlinedInput';
+import FormatClearIcon from '@material-ui/icons/FormatClear';
 import InsertEmoticonIcon from '@material-ui/icons/InsertEmoticon';
 import PowerSettingsNewIcon from '@material-ui/icons/PowerSettingsNew';
 
@@ -149,7 +149,7 @@ class Content extends PureComponent{
               disabled={!translated}
               onClick={() => {handleReset()}}
             >
-              <PowerSettingsNewIcon/><span>Reset</span>
+              <FormatClearIcon/><span>Reset</span>
             </Button>
             <Button
               type="button"
