@@ -1,7 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import Snackbar from '@material-ui/core/Snackbar';
-import Typography from "@material-ui/core/es/Typography/Typography";
 
 import App from './App';
 import credentials from './credentials';
