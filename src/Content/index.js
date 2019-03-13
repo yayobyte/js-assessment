@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
+
 import Card from '@material-ui/core/Card';
-import Button from "@material-ui/core/Button";
 import Avatar from "@material-ui/core/Avatar";
 import Select from '@material-ui/core/Select';
 import MenuItem from '@material-ui/core/MenuItem';
@@ -10,12 +10,10 @@ import withStyles from '@material-ui/core/styles/withStyles';
 import InputLabel from "@material-ui/core/InputLabel";
 import Typography from "@material-ui/core/es/Typography/Typography";
 import FormControl from "@material-ui/core/FormControl";
-import CardActions from '@material-ui/core/CardActions';
 import TranslateIcon from '@material-ui/icons/Translate';
 import OutlinedInput from '@material-ui/core/OutlinedInput';
-import FormatClearIcon from '@material-ui/icons/FormatClear';
-import InsertEmoticonIcon from '@material-ui/icons/InsertEmoticon';
-import PowerSettingsNewIcon from '@material-ui/icons/PowerSettingsNew';
+
+import MenuButtons from './MenuButtons';
 
 import intlMessagesEN from '../i18n/locales-en.json';
 import intlMessagesES from '../i18n/locales-es.json';
@@ -133,33 +131,12 @@ class Content extends PureComponent{
           </form>
           <br />
           <br />
-          <CardActions>
-            <Button
-              color="primary"
-              variant="outlined"
-              disabled={translated}
-              onClick={() => handleTranslate()}
-            >
-              <InsertEmoticonIcon/><span>Greet</span>
-            </Button>
-            <Button
-              type="button"
-              variant="contained"
-              color="primary"
-              disabled={!translated}
-              onClick={() => {handleReset()}}
-            >
-              <FormatClearIcon/><span>Reset</span>
-            </Button>
-            <Button
-              type="button"
-              variant="contained"
-              color="secondary"
-              onClick={() => {handleLogout()}}
-            >
-              <PowerSettingsNewIcon/><span>Log out</span>
-            </Button>
-          </CardActions>
+          <MenuButtons
+            handleTranslate={handleTranslate}
+            translated={translated}
+            handleLogout={handleLogout}
+            handleReset={handleReset}
+          />
         </Card>
       </main>
     );
