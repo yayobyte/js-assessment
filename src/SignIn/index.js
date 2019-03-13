@@ -1,28 +1,36 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+
+import Paper from '@material-ui/core/Paper';
+import Input from '@material-ui/core/Input';
 import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
-import FormControl from '@material-ui/core/FormControl';
-import Input from '@material-ui/core/Input';
-import InputLabel from '@material-ui/core/InputLabel';
-import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
-import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
+import InputLabel from '@material-ui/core/InputLabel';
 import withStyles from '@material-ui/core/styles/withStyles';
+import FormControl from '@material-ui/core/FormControl';
+import LockOpenIcon from '@material-ui/icons/LockOpen';
+import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
+
 import styles from './styles';
 
 
 class SignIn extends React.PureComponent {
-  state = {
-    email: "",
-    password: "",
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      email: '',
+      password: '',
+      emailPlaceholder: props.emailPlaceholder,
+      passwordPlaceholder: props.passwordPlaceholder,
+    };
+  }
   handleChange = (name) => (event) => {
     this.setState({ [name]: event.target.value });
   };
   render () {
     const { classes, handleSubmit } = this.props;
-    const { email, password } = this.state;
+    const { email, password, emailPlaceholder, passwordPlaceholder } = this.state;
     const { handleChange } = this;
     return (
       <main className={classes.main}>
@@ -36,13 +44,27 @@ class SignIn extends React.PureComponent {
           <form className={classes.form}>
             <FormControl margin="normal" required fullWidth>
               <InputLabel htmlFor="email">Email Address</InputLabel>
-              <Input id="email" name="email" autoComplete="email" autoFocus placeholder="yayobyte@gmail.com"
-                 value={email} onChange={handleChange('email')}/>
+              <Input
+                id="email"
+                name="email"
+                autoComplete="email"
+                autoFocus
+                placeholder={emailPlaceholder}
+                value={email}
+                onChange={handleChange('email')}
+              />
             </FormControl>
             <FormControl margin="normal" required fullWidth>
               <InputLabel htmlFor="password">Password</InputLabel>
-              <Input name="password" type="password" id="password" autoComplete="current-password" placeholder="1234"
-                 value={password} onChange={handleChange('password')} />
+              <Input
+                name="password"
+                type="password"
+                id="password"
+                autoComplete="current-password"
+                placeholder={passwordPlaceholder}
+                value={password}
+                onChange={handleChange('password')}
+              />
             </FormControl>
             <Button
               type="button"
@@ -52,7 +74,7 @@ class SignIn extends React.PureComponent {
               className={classes.submit}
               onClick={() => {handleSubmit(email, password)}}
             >
-              Sign in
+              <LockOpenIcon/><span>Login</span>
             </Button>
           </form>
         </Paper>
@@ -64,6 +86,8 @@ class SignIn extends React.PureComponent {
 SignIn.propTypes = {
   classes: PropTypes.object.isRequired,
   handleSubmit: PropTypes.func.isRequired,
+  emailPlaceholder: PropTypes.string.isRequired,
+  passwordPlaceholder: PropTypes.string.isRequired,
 };
 
 export default withStyles(styles)(SignIn);

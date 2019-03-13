@@ -1,4 +1,5 @@
 import React, { PureComponent, Fragment } from 'react';
+import PropTypes from 'prop-types';
 import 'typeface-roboto';
 
 import InfoIcon from '@material-ui/icons/Info';
@@ -11,12 +12,18 @@ import SnackbarContent from '@material-ui/core/SnackbarContent';
 
 import SignIn from '../SignIn/index';
 import Content from '../Content/index';
+import credentials from './credentials';
 
 class App extends PureComponent {
-  state={
-    loggedIn: false,
-    open: false,
-  };
+  constructor(props) {
+    super(props);
+    this.state={
+      loggedIn: true,
+      open: false,
+      email: props.email,
+      password: props.password,
+    };
+  }
   handleSubmit = (email, password) => {
     if (this.validateLogin(email, password))
     {
@@ -30,15 +37,15 @@ class App extends PureComponent {
     this.setState(() => ({ open: false }));
   };
   validateLogin = (email, password) => {
-    return email === 'yayobyte@gmail.com' && password === '1234';
+    return email === this.state.email && password === this.state.password;
   };
   render() {
     const { handleSubmit, closeSnackBar, handleLogout } = this;
-    const { loggedIn } = this.state;
+    const { loggedIn, email, password } = this.state;
     return (
       <Fragment>
         <CssBaseline />
-        {!loggedIn && <SignIn handleSubmit={handleSubmit}/>}
+        {!loggedIn && <SignIn handleSubmit={handleSubmit} emailPlaceholder={email} passwordPlaceholder={password} />}
         {loggedIn && <Content handleLogout={handleLogout}/>}
         <Snackbar
           anchorOrigin={{
@@ -54,8 +61,8 @@ class App extends PureComponent {
               <div>
                 <span>
                   <InfoIcon />
-                  <Typography variant="body1" color="secondary">Username: yayobyte@gmail.com</Typography>
-                  <Typography variant="body1" color="secondary">Password: 1234</Typography>
+                  <Typography variant="body1" color="secondary">Username: {email}</Typography>
+                  <Typography variant="body1" color="secondary">Password: {password}</Typography>
                 </span>
               </div>
             }
@@ -75,5 +82,15 @@ class App extends PureComponent {
     );
   }
 }
+
+App.propTypes = {
+  email: PropTypes.string.isRequired,
+  password: PropTypes.string.isRequired,
+};
+
+App.defaultProps = {
+  email: credentials.email,
+  password: credentials.password,
+};
 
 export default App;
