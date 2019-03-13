@@ -93,16 +93,17 @@ class Content extends PureComponent{
               and select <strong>Language</strong> your name with a greeting in the language selected
             </Typography>
             <br />
-            <FormControl margin="normal" required fullWidth>
+            <FormControl margin="normal" variant="outlined" required fullWidth>
               <InputLabel htmlFor="listOfNames">List of names</InputLabel>
-              <Input
+              <OutlinedInput
                 id="textField"
                 name="listOfNames"
-                autoFocus
                 placeholder="Input list of names here..."
                 value={listOfNames}
                 onChange={handleListOfNamesChange}
                 readOnly={translated}
+                labelWidth={110}
+                autoFocus
                 multiline
               />
             </FormControl>
