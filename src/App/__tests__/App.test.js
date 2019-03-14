@@ -2,8 +2,8 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import Snackbar from '@material-ui/core/Snackbar';
 
-import App from './App';
-import credentials from './credentials';
+import App from '../App';
+import credentials from '../credentials';
 
 describe('<App />',() => {
   const tree = shallow(<App email={credentials.email} password={credentials.password} />).dive();

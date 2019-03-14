@@ -39,7 +39,7 @@ class Content extends PureComponent{
     this.setState(() => ({ listOfNames : '', translated: false}))
   };
   handleLanguageChange = (event) => {
-    const { intlMessagesES, intlMessagesFR, intlMessagesEN } = this.props;
+    const { intlMessagesES, intlMessagesFR, intlMessagesEN, intlMessagesPT } = this.props;
     let intlMessages;
     switch (event.target.value) {
       case 'es':
@@ -113,7 +113,7 @@ class Content extends PureComponent{
               </InputLabel>
               <Select
                 value={language}
-                onChange={(event) => handleLanguageChange(event, language)}
+                onChange={(event) => handleLanguageChange(event)}
                 disabled={translated}
                 input={
                   <OutlinedInput
@@ -149,6 +149,7 @@ Content.propTypes = {
   intlMessagesEN: PropTypes.object.isRequired,
   intlMessagesES: PropTypes.object.isRequired,
   intlMessagesFR: PropTypes.object.isRequired,
+  intlMessagesPT: PropTypes.object.isRequired,
 };
 
 Content.defaultProps = {
@@ -156,6 +157,7 @@ Content.defaultProps = {
   intlMessagesEN: intlMessagesEN,
   intlMessagesES: intlMessagesES,
   intlMessagesFR: intlMessagesFR,
+  intlMessagesPT: intlMessagesPT,
 };
 
 export default withStyles(styles)(Content);

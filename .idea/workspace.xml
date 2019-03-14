@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f171dfa-ed63-4f5d-96e4-7716ba53a355" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SignIn/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Content/__tests__/index.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/__tests__/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SignIn/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/SignIn/__tests__/index.test.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,19 +20,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SignIn/index.js">
+        <entry file="file://$PROJECT_DIR$/src/Content/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="44" />
+            <state relative-caret-position="2002">
+              <caret line="136" column="38" selection-start-line="136" selection-start-column="26" selection-end-line="136" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Content/MenuButtons.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="24" column="33" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SignIn/index.test.js">
+        <entry file="file://$PROJECT_DIR$/src/Content/__tests__/index.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+            <state relative-caret-position="566">
+              <caret line="78" selection-start-line="78" selection-end-line="78" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -44,6 +61,9 @@
     <findStrings>
       <find>styles</find>
       <find>handleChange</find>
+      <find>handleLanguageChange</find>
+      <find>language</find>
+      <find>handleLogout</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -62,7 +82,6 @@
         <option value="$PROJECT_DIR$/src/i18n/locales-pt.json" />
         <option value="$PROJECT_DIR$/src/App/styles.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/Content/index.js" />
         <option value="$PROJECT_DIR$/src/Content/MenuButtons.js" />
         <option value="$PROJECT_DIR$/src/App/App.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
@@ -72,6 +91,10 @@
         <option value="$PROJECT_DIR$/src/App/App.test.js" />
         <option value="$PROJECT_DIR$/src/SignIn/index.js" />
         <option value="$PROJECT_DIR$/src/SignIn/index.test.js" />
+        <option value="$PROJECT_DIR$/src/Content/__tests__/MenuButtons.test.js" />
+        <option value="$PROJECT_DIR$/src/SignIn/__tests__/index.test.js" />
+        <option value="$PROJECT_DIR$/src/Content/index.js" />
+        <option value="$PROJECT_DIR$/src/Content/__tests__/index.test.js" />
       </list>
     </option>
   </component>
@@ -107,7 +130,34 @@
               <item name="js-assessment" type="b2602c69:ProjectViewProjectNode" />
               <item name="js-assessment" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-assessment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-assessment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-assessment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-assessment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Content" type="462c0819:PsiDirectoryNode" />
+              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-assessment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-assessment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="SignIn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-assessment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-assessment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SignIn" type="462c0819:PsiDirectoryNode" />
+              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -130,14 +180,16 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/SignIn/__tests__" />
+      <recent name="$PROJECT_DIR$/src/App/__tests__" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/App" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/App" />
       <recent name="$PROJECT_DIR$/src/i18n" />
       <recent name="$PROJECT_DIR$/src/img" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/App" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -166,18 +218,18 @@
       <workItem from="1552418043119" duration="113000" />
       <workItem from="1552418405835" duration="8123000" />
       <workItem from="1552443246057" duration="14193000" />
-      <workItem from="1552490478023" duration="14009000" />
+      <workItem from="1552490478023" duration="21540000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43183000" />
+    <option name="totallyTimeSpent" value="50714000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1922" height="929" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24986821" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24986821" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -284,23 +336,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Content/MenuButtons.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Content/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2802">
-          <caret line="161" selection-start-line="161" selection-end-line="161" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1884">
@@ -366,7 +401,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/App.test.js">
+    <entry file="file://$PROJECT_DIR$/src/App/__tests__/App.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="1" selection-end-column="33" />
@@ -376,17 +411,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SignIn/index.js">
+    <entry file="file://$PROJECT_DIR$/src/Content/__tests__/MenuButtons.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="44" />
+        <state relative-caret-position="286">
+          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SignIn/index.test.js">
+    <entry file="file://$PROJECT_DIR$/src/SignIn/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        <state relative-caret-position="308">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SignIn/__tests__/index.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Content/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2002">
+          <caret line="136" column="38" selection-start-line="136" selection-start-column="26" selection-end-line="136" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Content/MenuButtons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Content/__tests__/index.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
